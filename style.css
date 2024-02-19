@@ -1,0 +1,66 @@
+body {
+    background-image: url("maths 4.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.calculator {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #191919;
+    border-radius: 40px;
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: black;
+    box-shadow: inset -5px -5px 20px black;
+    border:none;
+    border-radius: 30px;
+    color:rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;  
+    color:blanchedalmond;          
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button{
+    height :48px;
+    width:48px;
+    background-color: antiquewhite;
+    box-shadow: inset -5px -5px 12px wheat;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    color:black;
+    font-weight:bold;
+    
+}
+button:active {
+    background-color: #ddd;
+}
